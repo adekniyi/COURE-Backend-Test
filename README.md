@@ -1,4 +1,31 @@
-# Country Details API
+# 1. Array Scoring Problem
+
+The solution implements the scoring logic for an array of integers as described below:
+
+**Problem**
+
+Given an array of integers, the scoring rules are:
+
+1. Add 1 point for each even number.
+
+2. Add 3 points for each odd number.
+
+3. Add 5 points for every occurrence of the number 8.
+
+**Examples**
+
+Input: [1, 2, 3, 4, 5]
+Output: 11
+
+Input: [15, 25, 35]
+Output: 9
+
+Input: [8, 8]
+Output: 12
+
+
+
+# 2. Country Details API
 
 This is a simple web API built using **ASP.NET Core 8.0** that provides information about countries and their mobile operators based on phone numbers.
 
